@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <scriptsrc=src="app.js"></scriptsrc=>
+    <title>Thông tin sinh viên</title>
+</head>
+<body onload="renderListStudent()">
+    <div class="form-student">
+        <h1>Thông tin sinh viên</h1>
+        <br />
+        <label>Họ Và tên</label>
+        <input type="text" id="fullname" placeholder="Nhập thông tin"/>
+        <span id="fullname-error" class="error"></span>
+        <br/>
+        <label>Địa chỉ email</label>
+        <input type="text" id="email" placeholder="Nhập địa chỉ emal"/>
+        <span id="email-error" class="error"></span>
+        <br/>
+        <label>số điện thoại</label>
+        <input type="text" id="phone" placeholder="Nhập sdt"/>
+        <span id="phone-error" class="error"></span>
+        <br/>
+        <label>Địa chỉ</label>
+        <input type="text" id="address"placeholder="Nhập địa chỉ"/>
+        <span id="address-error" class="error"></span>
+        <br/>
+        <label>Giới tính</label>
+        <input type="radio" name="gender" id="male" value="1"/>Nam
+        <input type="radio" name="gender" id="famale" value="2"/>Nữ
+        <span id="gender-error" class="error"></span>
+        <br/>
+        <label>&nbsp;</label>
+        <button onclick="save()">Lưu lại</button>
+    </div>
+
+    <div class="list-student" id="list-student">
+        <h1>Danh sách sinh viên</h1>
+        <table id="grid-students" with="600" border="1" cellpadding="0" cellpadding="0">
+            
+        </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

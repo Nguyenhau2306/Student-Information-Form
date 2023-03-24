@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+.form-student {
+    width: 600px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 25px;
+    background:rgb(41, 143, 109);
+    float: left;
+}
+.form-student h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+.list-student {
+    width: 600px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 50px;
+    padding: 25px;
+    background:rgb(41, 143, 109);
+    float: left;
+}
+.list-student h1 {
+    text-align: center;
+    padding: 10px;
+} 
+input {
+    background: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+label {
+    width: 150px;
+    float: left;
+    
+}
+button {
+    align-items: center;
+    width: 80px;
+    padding: 10px;
+    background: beige;
+    border-radius: 7px;
+    cursor: pointer;
+    border : none;
+    margin-top: 30px;
+    margin-left: 20px;
+ 
+}
+button:hover {
+    background: #c8d6e2;
+}
+input#male {
+    margin-left: 10px;
+    cursor: pointer;
+}
+table {
+    background: aliceblue;
+}
+td {
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+.error{
+    color:red;
+}
+span#gender-error {
+    margin-left: 80px;
+}
